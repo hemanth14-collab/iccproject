@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <br>
+  <br>
+  <br>
+
+  <img src="./ICC_CARD.png" alt="webimg1.png" style="height: 320px">
+
+<h2>Show This at the Restaurant Entry</h2>
+
+
+<button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10000)">Click here for generating your unique Table Confirmation ID</button>
+
+<p id="demo"></p>
+
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+
+</body>
+</html>
